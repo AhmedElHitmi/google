@@ -2,11 +2,17 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+/*****************Body***************************/
 body {
   background-color: white;
   font-family: 'verdan',sans-serif;
   font-size: 100%;
 }
+
+/***************end Body***************************/
+
+/*****************Navigation***************************/
 
 nav ul {
   list-style: none;
@@ -15,70 +21,116 @@ nav ul {
 nav li {
   display: inline-block;
   }
+  /*****************end navigation***************************/
+
+  /*****************header***************************/
 
 
 header {
   text-align: right;
+  font-size: 0.75em;
+  color: #000;
   /*margin:0 0 3px 0;*/
   /*padding: 5px 0 0 0;*/
 
 
 }
+/*****************end header***************************/
+/******************section****************************/
 
 section {
   text-align: center;
-  margin-bottom: 320px;
+  /*margin-bottom: 320px;*/
 }
 
+/*****************end section***************************/
+
+/*****************Footer***************************/
+
 footer {
-margin-bottom: 100%;
+margin-bottom:100%;
+font-size: 0.75em;
+padding-top: 50px;
+color: black;
 }
+
+/*****************end footer***************************/
+
+/*****************Class***************************/
+
+/*****************class lien messagerie**************************/
 
 .gma {
 margin-bottom: 100px;
 }
+
+/*****************Class lien images google***************************/
+
 .ima {
 
 }
+
+/*****************Class réduction icon google***************************/
+
 .reduire {
   width: 15%;
   height:15%;
 }
+
+/*****************Class dans footer alignement gauche***************************/
 .agoch {
   float: left;
-
+  color: black;
 }
+
+/*****************Class dans footer alignement droite***************************/
+
 .adroite {
   float: right;
+  color: black;
 }
+/*****************Class image de google***************************/
+
 .imagoo {
   display:block;
   max-width: none;
   border-radius:1px;
-  margin-top: 180px;
+  margin-top: 150px;
   margin-left: 500px;
 }
+
+/*****************Class icon de google***************************/
 .imico {
   width: 10%;
   height:10%;
 }
+
+/*****************Classzone de recherche de google***************************/
 .rech {
   /*height: 35px;*/
   /*width: 250px;*/
   margin-left:200;
-  margin-top: 30px;
+  margin-top: 20px;
   border: 2px;
   border-color: black;
 }
 
+/*****************Class bouton de recherche Google***************************/
 .rcg {
     background-color: #777;
+    color: black;
+    font-size: 0.75em;
 }
-.chance {
-    background-color: #777;
-    text-align:center;
-    margin:auto;
-    padding:auto;
 
+/*****************Class bouton de recherche j'ai de la chance***************************/
+
+
+.chance {
+    font-size: 0.75em;
+    background-color: #777;
+    color:black;
+    text-align:center;
+    /*margin:auto;*/
+    /*padding:auto;*/
 
 }
