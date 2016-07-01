@@ -54,18 +54,22 @@ background-color: #E6E2AF;
   text-align: center;
 }
 /*****************class lien messagerie**************************/
-.gma {
+.gmail {
   display: block;
   padding-bottom:  10px;
   margin-left: 10px;
-  margin-right: 10px
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
 }
 /*****************Class lien images google***************************/
-.ima {
+.image {
   display: block;
   padding-bottom: 10%;
   margin-left: 10px;
-  margin-right: 10px
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
 }
 /*****************Class réduction icon google***************************/
 .reduire {
@@ -73,7 +77,7 @@ background-color: #E6E2AF;
   width: 50%;
   height:50%;
 }
-.clo {
+.cloche {
   display: block;
   margin-top: 5px;
   width: 100%;
@@ -91,6 +95,7 @@ background-color: #E6E2AF;
 .agoch li a {
   margin-left:  20px;
   color: black;
+  text-decoration: none;
 }
 
 
@@ -106,6 +111,7 @@ background-color: #E6E2AF;
 .adroite li a {
   margin-right:  20px;
   color: black;
+  text-decoration: none;
 }
 
 
