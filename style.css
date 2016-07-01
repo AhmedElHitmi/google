@@ -10,163 +10,179 @@ body {
   font-family: 'verdan',sans-serif;
   font-size: 100%;
 }
-
 /***************end Body***************************/
-
-
 /*****************Navigation***************************/
-
   nav ul {
     list-style: none;
     text-align: right;
   }
-
   nav li {
     display: inline-block;
     }
 /*****************end navigation***************************/
-
 /*****************header***************************/
-
 header {
   text-align: right;
   font-size: 0.75em;
   color: #000;
   height: 30px;
-  /*margin:0 0 3px 0;*/
-  /*padding: 5px 0 0 0;*/
 }
-
 /*****************end header***************************/
 /******************section****************************/
-
 section {
   text-align: center;
   /*margin-bottom: 320px;*/
 }
-
 /*****************end section***************************/
-
 /*****************Footer***************************/
-
 footer {
-
 font-size: 0.75em;
 position:absolute;
 bottom:0;
 width:100%;
 height:50px;
-background-color: #EFECCA;
+background-color: #E6E2AF;
 }
-
 /*****************end footer***************************/
-
-/*****************Class***************************/
-
-
 /*****************Mon cadre ***************************/
 .moncadre {
   display: block;
   margin-top: 0;
   float: right;
   width:200px;
-  border:1px solid blue ;
+  /*border:1px solid lightblue ;*/
   text-align: center;
 }
-.moncadre li:nth-child(3) {
-  /*padding-bottom: 15px;*/
-}
-
 /*****************class lien messagerie**************************/
-
 .gma {
   display: block;
   padding-bottom:  10px;
   margin-left: 10px;
   margin-right: 10px
 }
-
 /*****************Class lien images google***************************/
-
 .ima {
   display: block;
   padding-bottom: 10%;
   margin-left: 10px;
   margin-right: 10px
-
-/*padding-right: 25px;*/
-/*margin-left: 5px;*/
 }
-
 /*****************Class réduction icon google***************************/
-
 .reduire {
   display: block;
-  width: 40%;
-  height:40%;
-
+  width: 50%;
+  height:50%;
 }
-
+.clo {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  height:100%;
+}
 /*****************Class dans footer alignement gauche***************************/
 .agoch {
+
   float: left;
   color: black;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-/*****************Class dans footer alignement droite***************************/
+.agoch li a {
+  margin-left:  20px;
+  color: black;
+}
 
+
+/*****************Class dans footer alignement droite***************************/
 .adroite {
   float: right;
   color: black;
-  padding-left: 10px;
-  padding-right: 10px;
-
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right:  30px;
 }
-/*****************Class image de google***************************/
 
+.adroite li a {
+  margin-right:  20px;
+  color: black;
+}
+
+
+
+
+/*****************Class image de google***************************/
 .imagoo {
   display:block;
   max-width: none;
   border-radius:1px;
   margin-top: 150px;
   margin-left: 500px;
-}
+  width: 50%;
+  height:50%;
 
+}
 /*****************Class icon de google***************************/
 .imico {
   width: 10%;
   height:10%;
 }
-
 /*****************Classzone de recherche de google***************************/
 .rech {
-  height: 30px;
-  width: 500px;
+  /*background-color:lightblue;*/
+  height: 40px;
+  width: 600px;
   margin-left:100;
   margin-top: 20px;
-  border: 1px solid blue;
-
+  border: 1px solid lightblue;
 }
-
 /*****************Class bouton de recherche Google***************************/
-.rcg {
-    background-color: #EFECCA;
-    color: blue;
-    font-size: 0.75em;
-    margin:0 0 10px 10px;
+
+#button-r {
+  /*background-color: #4CAF50; */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
 }
 
-/*****************Class bouton de recherche j'ai de la chance***************************/
 
+#button-c {
+    background-color: #red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
-.chance {
-    font-size: 0.75em;
-    background-color: #EFECCA;
-    color:blue;
-    text-align:center;
-    margin:0 10px;
-    /*padding:auto;*/
+/*****************responsive web design***************************/
+@media screen and (min-width: 480px) {
+  .imagoo {
+    display:block;
+    border-radius:1px;
+    margin-top: 150px;
+    margin-left: 500px;
+    width: 25%;
+    height:25%;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .imagoo {
+  /*  display:block;
+    border-radius:1px;
+    margin-top: 150px;
+    margin-left: 500px;
+    width: 70%;
+    height:70%; */
+  }
+
 
 }
